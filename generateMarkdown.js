@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
   ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/${data.username}/${data.repo}?style=for-the-badge)
-  [![License: MIT](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license}?style=for-the-badge)
+  [![License: MIT](https://img.shields.io/badge/License-${data.license}?style=for-the-badge)](https://opensource.org/licenses/${data.license}?style=for-the-badge)
 
 
 ## Table of Content(s)
