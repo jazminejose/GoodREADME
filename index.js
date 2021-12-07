@@ -1,7 +1,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const getBadge = require('./badge.js')
+// const getBadge = require('./badge.js')
 const generateMarkdown = require('./generateMarkdown.js');
 
 // array of questions for user
@@ -30,7 +30,7 @@ const questions = [
   type: 'list',
   name: 'license',  
   message: "Select license used: ",
-  choices: ['MIT', 'Apache 2.0', 'Unlicense'],
+  choices: ['MIT', 'ISC', 'Unlicense'],
 },
 {
   type: 'input',
