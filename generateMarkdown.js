@@ -1,6 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${data.username}/${data.repo}?style=flat&logo=appveyor)
 
 ## Table of Content(s)
 

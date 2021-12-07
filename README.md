@@ -1,4 +1,5 @@
-# GoodREADME
+# README Generator
+  ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/jazminejose/undefined?style=flat&logo=appveyor)
 
 ## Table of Content(s)
 
@@ -11,26 +12,26 @@
 - [Questions](#questions)
 
 ## Description
-ff
+This project generates a README.md using a command-line application.  The user is prompted with questions.
 
 ## Installation
-f
+Inquirer package
 
 ## Usage
-f
+None
 
 ## Contributing
-f
+None
 
 ## Tests
-f
+No tests.
 
 ## License
-Academic Free License v3.0
+GNU Lesser General Public License v3.0
 
 ## Questions
 For any questions, please contact me:<br>
-Email - undefined<br>
+Email - jazzi.lyn217@yahoo.com<br>
 Github - https://github.com/jazminejose<br>
 
 
