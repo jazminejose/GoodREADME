@@ -10,7 +10,6 @@ const questions = [
   type: 'input',
   name: 'username',
   message: 'Enter your GitHub username: ',
-
 },
 {
   type: 'input',
