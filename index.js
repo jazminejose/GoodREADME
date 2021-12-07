@@ -1,3 +1,4 @@
+
 const inquirer = require('inquirer');
 const axios = require('axios');
 const fs = require('fs');
@@ -8,39 +9,44 @@ const questions = [
 {
   type: 'input',
   message: 'Enter your GitHub username: ',
-  name: 'username'
+  name: 'username',
 },
 {
   type: 'input',
   message: 'Enter your project title: ',
-  name: 'repository',
+  name: 'title',
 },
 {
   type: 'input',
-  message: 'Write a description of your project: ',
-  title: 'description',
+  message: 'Write a description of your ${`title`}: ',
+  name: 'description',
 },
 { 
   type: 'input',
-  message: 'Installation: ',
+  message: 'Installation(s) used: ',
   name: 'installation',
 },
 {
   type: 'input',
   message: 'Usage of the project: ',
-  name: 'usage'
-}
+  name: 'usage',
+},
 {
   type: 'list',
-  message: "Select License used",
-  choices: ['MIT License', 'The Unlicense', 'Google 2.0v'],
-  name: 
+  message: "Select license used",
+  choices: ['Academic Free License v3.0', 'Creative Commons Attribution 4.0', 'European Union Public License 1.1', 'GNU Lesser General Public License v3.0', 'PostgreSQL License'],
+  name: 'license',
 },
 {
   type: 'input',
   message: 'Contributing information: ',
-  name: ''
-}
+  name: 'contributing',
+},
+{
+  type: 'input',
+  message: 'Enter any tests: ',
+  name: 'tests',
+},
 {
   type: 'input',
   messages: "Provide your email: ",
@@ -62,9 +68,7 @@ function writeToFile(fileName, data) {
 async function init() {
   try {
     const userResponses = await inquirer.prompt(questions);
-
     const markdown = generateMarkdown(userResponses)
-
     await writeToFile('example_README.md', markdown);
   } catch (error) {
     console.log(error);
