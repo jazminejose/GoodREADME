@@ -1,6 +1,6 @@
-# README Generator
-  ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/jazminejose/GoodREADME?style=for-the-badge)
-  [![License: MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC?style=for-the-badge)
+# j
+  ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/j/j?style=for-the-badge)
+  [![License: MIT](https://img.shields.io/badge/License-ISC?style=for-the-badge)](https://opensource.org/licenses/ISC?style=for-the-badge)
 
 
 ## Table of Content(s)
@@ -14,25 +14,25 @@
 - [Questions](#questions)
 
 ## Description
-This project generates a README.md using a command-line application. The user is prompted with questions. 
+j
 
 ## Installation
-Inquirer package
+j
 
 ## Usage
 Run the following command: 
-node index.js
+j
 
 ## Contributing
-None
+j
 
 ## Tests
-No available tests.
+j
 
 ## License
 ISC
 
 ## Questions
 For any questions, please contact me:<br>
-Email - jazzi.lyn217@yahoo.com<br>
-Github - https://github.com/jazminejose<br>
+Email - j<br>
+Github - https://github.com/j<br>
