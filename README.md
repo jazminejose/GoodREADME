@@ -1,5 +1,6 @@
 # README Generator
-  ![Badge for GitHub last commit](https://img.shields.io/github/commit-activity/w/jazminejose/GoodREADME?style=for-the-badge)
+  ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/jazminejose/GoodREADME?style=for-the-badge)
+  ![Badge for GitHub commit activity](https://img.shields.io/npm/l/MIT?color=yellow&style=for-the-badge)
 
 ## Table of Content(s)
 
@@ -12,7 +13,7 @@
 - [Questions](#questions)
 
 ## Description
-This project generates a README.md using a command-line application.  The user is prompted with questions.
+This project generates a README.md file using a command-line application. The user is prompted with questions.
 
 ## Installation
 Inquirer package
@@ -21,13 +22,13 @@ Inquirer package
 None
 
 ## Contributing
-None
+No contributors.
 
 ## Tests
-No tests.
+No tests available.
 
 ## License
-GNU Lesser General Public License v3.0
+MIT
 
 ## Questions
 For any questions, please contact me:<br>

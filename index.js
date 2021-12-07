@@ -8,11 +8,6 @@ const generateMarkdown = require('./generateMarkdown.js');
 const questions = [
 {
   type: 'input',
-  name: 'username',
-  message: 'Enter your GitHub username: ',
-},
-{
-  type: 'input',
   name: 'title',  
   message: 'Enter your project title: ',
 },
@@ -35,7 +30,7 @@ const questions = [
   type: 'list',
   name: 'license',  
   message: "Select license used: ",
-  choices: ['Academic Free License v3.0', 'Creative Commons Attribution 4.0', 'European Union Public License 1.1', 'GNU Lesser General Public License v3.0', 'PostgreSQL License'],
+  choices: ['MIT', 'Creative Commons Attribution 4.0', 'European Union Public License 1.1', 'GNU Lesser General Public License v3.0', 'PostgreSQL License'],
 },
 {
   type: 'input',
@@ -46,6 +41,16 @@ const questions = [
   type: 'input',
   name: 'tests',  
   message: 'Enter any tests: ',
+},
+{
+  type: 'input',
+  name: 'username',
+  message: 'Enter your GitHub username: ',
+},
+{
+  type: 'input',
+  name: 'repo',
+  message: 'Enter the name of your GitHub repository: ',
 },
 {
   type: 'input',
