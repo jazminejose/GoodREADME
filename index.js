@@ -35,7 +35,7 @@ const questions = [
 {
   type: 'list',
   name: 'license',  
-  message: "Select license used",
+  message: "Select license used: ",
   choices: ['Academic Free License v3.0', 'Creative Commons Attribution 4.0', 'European Union Public License 1.1', 'GNU Lesser General Public License v3.0', 'PostgreSQL License'],
 },
 {
