@@ -8,49 +8,50 @@ const generateMarkdown = require('./generateMarkdown.js');
 const questions = [
 {
   type: 'input',
-  message: 'Enter your GitHub username: ',
   name: 'username',
+  message: 'Enter your GitHub username: ',
+
 },
 {
   type: 'input',
+  name: 'title',  
   message: 'Enter your project title: ',
-  name: 'title',
 },
 {
   type: 'input',
-  message: 'Write a description of your ${`title`}: ',
-  name: 'description',
+  name: 'description',  
+  message: 'Write a description of your project: ',
 },
 { 
   type: 'input',
+  name: 'installation',  
   message: 'Installation(s) used: ',
-  name: 'installation',
 },
 {
   type: 'input',
+  name: 'usage',  
   message: 'Usage of the project: ',
-  name: 'usage',
 },
 {
   type: 'list',
+  name: 'license',  
   message: "Select license used",
   choices: ['Academic Free License v3.0', 'Creative Commons Attribution 4.0', 'European Union Public License 1.1', 'GNU Lesser General Public License v3.0', 'PostgreSQL License'],
-  name: 'license',
 },
 {
   type: 'input',
+  name: 'contributing',  
   message: 'Contributing information: ',
-  name: 'contributing',
 },
 {
   type: 'input',
+  name: 'tests',  
   message: 'Enter any tests: ',
-  name: 'tests',
 },
 {
   type: 'input',
-  messages: "Provide your email: ",
-  name: 'email'
+  name: 'Email', 
+  message: "Provide your email: ",
 }
 ];
 
@@ -60,7 +61,7 @@ function writeToFile(fileName, data) {
     if (err) {
       return console.log(err);
     }
-    console.log("Success! Your README.md file has been generated")
+    console.log("README.md file has been generated.")
   });
 }
 
@@ -69,7 +70,7 @@ async function init() {
   try {
     const userResponses = await inquirer.prompt(questions);
     const markdown = generateMarkdown(userResponses)
-    await writeToFile('example_README.md', markdown);
+    await writeToFile('README.md', markdown);
   } catch (error) {
     console.log(error);
   }
