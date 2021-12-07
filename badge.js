@@ -1,3 +1,5 @@
+//function to place badge 
+//NOTES - ERROR: BADGE IS NOT DEFINED
 let Badge = (license) => {
   if (license !== 'none') {
     return `[![Licence : ${license}](https://img.shields.io/badge/License-${license}.svg)](https://opensource.org/licenses/${license})`
