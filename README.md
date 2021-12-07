@@ -1,6 +1,6 @@
 # j
   ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/j/j?style=for-the-badge)
-  [![License: MIT](https://img.shields.io/badge/License-Unlicense?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/Unlicense)
+  [![License: MIT](https://img.shields.io/badge/License-Unlicense-blue.svg)](https://opensource.org/licenses/Unlicense)
 
 
 ## Table of Content(s)
@@ -14,7 +14,7 @@
 - [Questions](#questions)
 
 ## Description
-jj
+j
 
 ## Installation
 j
