@@ -1,7 +1,7 @@
 
 const inquirer = require('inquirer');
-const axios = require('axios');
 const fs = require('fs');
+const getBadge = require('./badge.js')
 const generateMarkdown = require('./generateMarkdown.js');
 
 // array of questions for user
@@ -30,7 +30,7 @@ const questions = [
   type: 'list',
   name: 'license',  
   message: "Select license used: ",
-  choices: ['MIT', 'Creative Commons Attribution 4.0', 'European Union Public License 1.1', 'GNU Lesser General Public License v3.0', 'PostgreSQL License'],
+  choices: ['MIT', 'Apache 2.0', 'Unlicense'],
 },
 {
   type: 'input',
@@ -58,6 +58,7 @@ const questions = [
   message: "Provide your email: ",
 }
 ];
+
 
 // function to write README file
 function writeToFile(fileName, data) {

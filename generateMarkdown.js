@@ -2,7 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.title}
   ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/${data.username}/${data.repo}?style=for-the-badge)
-  ![Badge for GitHub commit activity](https://img.shields.io/npm/l/${data.license}?color=yellow&style=for-the-badge)
+
+  ${Badge(data.license)}
 
 ## Table of Content(s)
 
@@ -21,6 +22,7 @@ ${data.description}
 ${data.installation}
 
 ## Usage
+Run the following command: 
 ${data.usage}
 
 ## Contributing
@@ -36,8 +38,6 @@ ${data.license}
 For any questions, please contact me:<br>
 Email - ${data.email}<br>
 Github - https://github.com/${data.username}<br>
-
-
 `;
 }
 
