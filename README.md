@@ -1,5 +1,5 @@
 # README Generator
-  ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/jazminejose/undefined?style=flat&logo=appveyor)
+  ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/jazminejose/GoodREADME?style=flat&logo=appveyor)
 
 ## Table of Content(s)
 
