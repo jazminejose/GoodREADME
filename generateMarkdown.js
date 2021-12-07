@@ -31,9 +31,10 @@ ${data.tests}
 ${data.license}
 
 ## Questions
-For any questions, please contact me:
-Github: https://github.com/${data.username}<br>
-Email: ${data.email}
+For any questions, please contact me:<br>
+Email - ${data.email}<br>
+Github - https://github.com/${data.username}<br>
+
 
 `;
 }
