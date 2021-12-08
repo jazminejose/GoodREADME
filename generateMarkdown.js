@@ -18,6 +18,8 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+Link: <a href="https://drive.google.com/file/d/13JzX8Y1hP4uKZF0iXTSlgWuoYD_oUCiX/view">Walkthrough Video</a>
+
 <img src="https://user-images.githubusercontent.com/92974218/145131744-db1e2c8c-eb85-46ab-874a-e2547f108840.png">
 
 ## Installation

@@ -14,9 +14,11 @@
 - [Questions](#questions)
 
 ## Description
-This project generates a README.md using a command-line application. The user is prompted with questions. 
+This project generates a README.md using a command-line application. The user is prompted with questions.
 
-<img src="https://user-images.githubusercontent.com/92974218/145132494-58b7541b-978c-4c3d-9420-aaee67f2a1b1.png">
+Link: <a href="https://drive.google.com/file/d/13JzX8Y1hP4uKZF0iXTSlgWuoYD_oUCiX/view">Walkthrough Video</a>
+
+<img src="https://user-images.githubusercontent.com/92974218/145131744-db1e2c8c-eb85-46ab-874a-e2547f108840.png">
 
 ## Installation
 Inquirer package
