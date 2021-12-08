@@ -18,6 +18,8 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+<img src="https://user-images.githubusercontent.com/92974218/145131744-db1e2c8c-eb85-46ab-874a-e2547f108840.png">
+
 ## Installation
 ${data.installation}
 
